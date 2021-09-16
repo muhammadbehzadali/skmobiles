@@ -1,0 +1,52 @@
+nav-link {
+    color: black;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    background-color: #485ad7;
+    color: white;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+@media only screen and (max-width:990px) {
+    .nd {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .n1 {
+        position: fixed;
+        display: contents;
+    }
+    .n2 {
+        display: none;
+    }
+}
+
+.navbar-brand {
+    width: 200px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+}
